@@ -8,22 +8,22 @@
 
 /* Begin PBXBuildFile section */
 		E22C6B191DD23AB600E773F0 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = E22C6B181DD23AB600E773F0 /* AppDelegate.swift */; };
-		E22C6B1B1DD23AB600E773F0 /* FacesController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E22C6B1A1DD23AB600E773F0 /* FacesController.swift */; };
+		E22C6B1B1DD23AB600E773F0 /* FaceViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E22C6B1A1DD23AB600E773F0 /* FaceViewController.swift */; };
 		E22C6B1E1DD23AB600E773F0 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E22C6B1C1DD23AB600E773F0 /* Main.storyboard */; };
 		E22C6B201DD23AB600E773F0 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = E22C6B1F1DD23AB600E773F0 /* Assets.xcassets */; };
 		E22C6B231DD23AB600E773F0 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E22C6B211DD23AB600E773F0 /* LaunchScreen.storyboard */; };
-		E22C6B2C1DD23B8600E773F0 /* Face.swift in Sources */ = {isa = PBXBuildFile; fileRef = E22C6B2B1DD23B8600E773F0 /* Face.swift */; };
+		E22C6B2C1DD23B8600E773F0 /* FaceView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E22C6B2B1DD23B8600E773F0 /* FaceView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		E22C6B151DD23AB600E773F0 /* Faces.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Faces.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		E22C6B181DD23AB600E773F0 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		E22C6B1A1DD23AB600E773F0 /* FacesController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FacesController.swift; sourceTree = "<group>"; };
+		E22C6B1A1DD23AB600E773F0 /* FaceViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FaceViewController.swift; sourceTree = "<group>"; };
 		E22C6B1D1DD23AB600E773F0 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		E22C6B1F1DD23AB600E773F0 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		E22C6B221DD23AB600E773F0 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		E22C6B241DD23AB600E773F0 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		E22C6B2B1DD23B8600E773F0 /* Face.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Face.swift; sourceTree = "<group>"; };
+		E22C6B2B1DD23B8600E773F0 /* FaceView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FaceView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -57,9 +57,9 @@
 			isa = PBXGroup;
 			children = (
 				E22C6B2A1DD23AE800E773F0 /* support */,
-				E22C6B1A1DD23AB600E773F0 /* FacesController.swift */,
+				E22C6B1A1DD23AB600E773F0 /* FaceViewController.swift */,
 				E22C6B1C1DD23AB600E773F0 /* Main.storyboard */,
-				E22C6B2B1DD23B8600E773F0 /* Face.swift */,
+				E22C6B2B1DD23B8600E773F0 /* FaceView.swift */,
 			);
 			path = Faces;
 			sourceTree = "<group>";
@@ -148,8 +148,8 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				E22C6B1B1DD23AB600E773F0 /* FacesController.swift in Sources */,
-				E22C6B2C1DD23B8600E773F0 /* Face.swift in Sources */,
+				E22C6B1B1DD23AB600E773F0 /* FaceViewController.swift in Sources */,
+				E22C6B2C1DD23B8600E773F0 /* FaceView.swift in Sources */,
 				E22C6B191DD23AB600E773F0 /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -314,6 +314,7 @@
 				E22C6B291DD23AB600E773F0 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

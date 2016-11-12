@@ -8,7 +8,7 @@
 
 import UIKit
 
-class FacesController: UIViewController {
+class FaceViewController: UIViewController {
 
 }
 
