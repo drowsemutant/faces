@@ -13,6 +13,7 @@
 		E22C6B201DD23AB600E773F0 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = E22C6B1F1DD23AB600E773F0 /* Assets.xcassets */; };
 		E22C6B231DD23AB600E773F0 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E22C6B211DD23AB600E773F0 /* LaunchScreen.storyboard */; };
 		E22C6B2C1DD23B8600E773F0 /* FaceView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E22C6B2B1DD23B8600E773F0 /* FaceView.swift */; };
+		E2FF37BB1DD7AEF200EF473B /* FacialExpression.swift in Sources */ = {isa = PBXBuildFile; fileRef = E2FF37BA1DD7AEF200EF473B /* FacialExpression.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -24,6 +25,7 @@
 		E22C6B221DD23AB600E773F0 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		E22C6B241DD23AB600E773F0 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		E22C6B2B1DD23B8600E773F0 /* FaceView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FaceView.swift; sourceTree = "<group>"; };
+		E2FF37BA1DD7AEF200EF473B /* FacialExpression.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FacialExpression.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -58,6 +60,7 @@
 			children = (
 				E22C6B2A1DD23AE800E773F0 /* support */,
 				E22C6B1A1DD23AB600E773F0 /* FaceViewController.swift */,
+				E2FF37BA1DD7AEF200EF473B /* FacialExpression.swift */,
 				E22C6B1C1DD23AB600E773F0 /* Main.storyboard */,
 				E22C6B2B1DD23B8600E773F0 /* FaceView.swift */,
 			);
@@ -149,6 +152,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				E22C6B1B1DD23AB600E773F0 /* FaceViewController.swift in Sources */,
+				E2FF37BB1DD7AEF200EF473B /* FacialExpression.swift in Sources */,
 				E22C6B2C1DD23B8600E773F0 /* FaceView.swift in Sources */,
 				E22C6B191DD23AB600E773F0 /* AppDelegate.swift in Sources */,
 			);
