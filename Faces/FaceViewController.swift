@@ -34,6 +34,8 @@ class FaceViewController: UIViewController {
             sadderSwipeGestureRecognizer.direction = .down
             faceView.addGestureRecognizer(sadderSwipeGestureRecognizer)
             
+            //let rotationGestureRecognizer = UIRotationGestureRecognizer
+            
             updateUI()
         }
     }
@@ -49,12 +51,21 @@ class FaceViewController: UIViewController {
         }
     }
     
+    
+    
     func inceaseHappiness(){
         expression.mouth = expression.mouth.happierMouth()
     }
     
     func deceaseHappiness(){
         expression.mouth = expression.mouth.sadderMouth()
+    }
+    
+    @IBAction func rotateFace(_ recognizer: UIRotationGestureRecognizer) {
+        print(recognizer.rotation)
+        faceView.transform = faceView.transform.rotated(by: recognizer.rotation)
+        //faceView.transform.rotated(by: recognizer.rotation)
+        recognizer.rotation = 0.0
     }
     
     private var mouthCurvatures = [ FacialExpression.Mouth.Frown: -1.0, .Smirk: -0.5, .Smile: 1.0, .Grin: 0.5, .Neutral: 0.0 ]

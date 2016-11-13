@@ -42,6 +42,7 @@
                                 </userDefinedRuntimeAttributes>
                                 <connections>
                                     <outletCollection property="gestureRecognizers" destination="4iP-VW-HxX" appends="YES" id="kdy-Bw-sq6"/>
+                                    <outletCollection property="gestureRecognizers" destination="Wox-38-mJb" appends="YES" id="ARD-VA-Urp"/>
                                 </connections>
                             </view>
                         </subviews>
@@ -63,6 +64,11 @@
                         <action selector="toggleEyes:" destination="BYZ-38-t0r" id="0On-3Y-doo"/>
                     </connections>
                 </tapGestureRecognizer>
+                <rotationGestureRecognizer id="Wox-38-mJb">
+                    <connections>
+                        <action selector="rotateFace:" destination="BYZ-38-t0r" id="MRQ-I6-Mwl"/>
+                    </connections>
+                </rotationGestureRecognizer>
             </objects>
             <point key="canvasLocation" x="-559" y="80"/>
         </scene>
